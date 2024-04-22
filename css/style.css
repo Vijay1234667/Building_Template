@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    padding: 6px 0px 7px;
+}
+.navbar a{
+    font-size:17px;
+    font-style: italic;
+    font-weight: 500;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    color: black;
+}
+
+body p{
+    font-size: 17px;
+    letter-spacing: 0.6px;
+}
+
+
+
+/*banner-section*/
+
+.banner-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25)), url(../img/bg-header.jpg);
+    background-position: 50% 50%;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-left h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+.banner-section ul li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+.banner-section ul li i{
+    font-size: 35px;
+}
+
+/*hero-section*/
+
+.hero-section{
+    background-color: #ccd1e5; 
+    padding: 10px 0px 10px;
+}
+.hero-text{
+    border-left: 6px solid #323a56; 
+    background-color: rgba(0, 0, 0, 0.101);
+    padding: 50px 20px 20px;  
+}
+.hero-section h1{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+/*project-section*/
+
+.project-section{
+    background-color: #323a56;
+}
+
+.project-section img{
+width: 100%;
+height: 300px;
+}
+
+/* about-section */
+
+.about-section{
+    background-color: #ccd1e5;
+    padding: 30px 0px 40px;
+}
+.about-company h2{
+    font-weight: 700;
+}
+.about-company button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+/* contact-section */
+
+.contact-section{
+    padding: 40px 0px 20px;
+    background-color: #323a56;
+}
+.contact-card{
+    background-color:white;
+    padding: 20px 0px 20px;
+}
+.our-team h1{
+    font-size: 50px;
+}
+.our-team p{
+    font-size: 17px;
+    letter-spacing: 0.6px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+.our-team button{
+    padding:5px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(22, 2, 2, 0.39);
+}
+
+.contact-icons{
+    padding: 10px 0px 10px;
+}
+
+.building-section{
+    background-color:#ccd1e5;
+    padding: 90px 0px 90px;  
+}
+.building-footer{
+    margin-top: -200px;
+}
+
+/* headline-section */
+.headline-section{
+    padding: 30px 0px 30px;
+    background-color:rgba(0, 0, 0, 0.751);
+    color: white;
+}
+.headline-section .bg-danger{
+    color: white;
+}
+
+
+
+/* footer-section */
+.footer-section{
+    text-align: center;
+    padding: 20px  0px 10px;
+    background-color: #333333;
+    color: white;
+}
+
+
+@media (max-width:767px){
+   
+    .navbar{
+        padding: 4px 0px 3px;
+    }
+    .navbar a{
+        font-size:17px;
+        font-style: italic;
+        font-weight: 500;
+        text-decoration:none;
+        letter-spacing: 1px;
+        color: black;
+        text-align: center;
+    }
+    .top-btn{
+        text-align: center;
+    }
+    
+    body p{
+        font-size: 16px;
+        letter-spacing: 0.6px;
+    }
+    .banner-left{
+        width: 100%;
+    }
+    /*banner-section*/
+    .banner-left h1{
+        font-weight: 700;
+        font-size: 30px;
+    }
+    /*hero-section*/
+
+    .hero-text{
+        border-left: 3px solid #323a56; 
+        background-color: rgba(0, 0, 0, 0.101);
+        padding: 20px 20px 20px;  
+    }
+    .hero-section h1{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .hero-section p{
+        font-size: 14px;
+    }
+    /*project-section*/
+    
+    .project-section{
+        background-color: #323a56;
+    }
+    .project-section p{
+        font-size: 15px;
+    }
+    .project-section img{
+    width: 100%;
+    height: 300px;
+    }
+    
+    /* about-section */
+    
+    .about-section{
+        background-color: #ccd1e5;
+        padding: 20px 0px 20px;
+    }
+    .about-company h2{
+        font-weight: 500;
+    }
+    /* contact-section */
+    .contact-section{
+        padding: 20px 0px 20px;
+        background-color: #323a56;
+    }
+  
+    .our-team h1{
+        font-size: 30px;
+    }
+    .our-team p{
+        font-size: 15px;
+        letter-spacing: 0.6px;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+  
+    
+    .contact-icons{
+        padding: 10px 0px 10px;
+    }
+    
+    /* headline-section */
+    .headline-section{
+        padding: 20px 0px 30px;
+        color: white;
+    }
+    .headline-section .bg-danger{
+        color: white;
+    }
+    
+    
+    
+    /* footer-section */
+    .footer-section{
+        text-align: center;
+        padding: 20px  0px 10px;
+        background-color: #333333;
+        color: white;
+    }
+    
+}
+
+
+
